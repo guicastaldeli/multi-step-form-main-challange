@@ -561,13 +561,19 @@
                                 //
     
                                 cBtn.addEventListener('click', () => {
-                                    steps[currStep].style.display = 'none';
                                     btn.textContent = nsp;
-    
+                                    steps[currStep].style.display = 'none';
+                                    
+                                    nSteps[currStep].style.color = '#FFFF';
+                                    nSteps[currStep].style.backgroundColor = 'transparent';
+
                                     currStep -= 2;
     
                                     if(currStep < steps.length) {
                                         steps[currStep].style.display = 'block';
+
+                                        nSteps[currStep].style.color = '#002049';
+                                        nSteps[currStep].style.backgroundColor = '#BEE3FE';
                                     }
 
                                     //Button
