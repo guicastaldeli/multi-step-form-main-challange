@@ -1,0 +1,12 @@
+{
+    "plans": {
+        "arcade": { "icon": "./assets/images/icon-arcade.svg", "name": "Arcade", "mprice": "9", "yprice": "90" },
+        "advanced": { "icon": "./assets/images/icon-advanced.svg", "name": "Advanced", "mprice": "12", "yprice": "120" },
+        "pro": { "icon": "./assets/images/icon-pro.svg", "name": "Pro", "mprice": "15", "yprice": "150" }
+    },
+    "addons": {
+        "o": { "name": "Online Services", "info": "Access to multiplayer games", "mprice": "1", "yprice": "10" },
+        "l": { "name": "Large Storage", "info": "Extra 1TB of cloud save", "mprice": "2", "yprice": "20"},
+        "c": { "name": "Customizable Profile", "info": "Custom theme on tour profile", "mprice": "2", "yprice": "20" }
+    }
+}

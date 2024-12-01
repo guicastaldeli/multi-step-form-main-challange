@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+  <div class="---container">
+    
+
+    <div class="-s">
+      <!-- Steps -->
+        <div class="-st">
+          <!-- First Step  -->
+            <div class="-fst-st">
+              <h1 id="fs-">1</h1>
+  
+              <div>
+                <span>STEP 1 
+                  <p>YOUR INFO</p>
+                </span>
+              </div>
+            </div>
+          <!---->
+  
+          <!-- Second Step -->
+            <div class="-snd-st">
+              <h1 id="s-">2</h1>
+  
+              <div>
+                <span>STEP 2 
+                  <p>SELECT PLAN</p>
+                </span>
+              </div>
+            </div>
+          <!---->
+  
+          <!-- Third Step -->
+            <div class="-trd-st">
+              <h1 id="t-">3</h1>
+  
+              <div>
+                <span>STEP 3 
+                  <p>ADD-ONS</p>
+                </span>
+              </div>
+            </div>
+          <!---->
+  
+          <!-- Forth Step -->
+            <div class="-fth-st">
+              <h1 id="fth-">4</h1>
+  
+              <div>
+                <span>STEP 4 
+                  <p>SUMMARY</p>
+                </span>
+              </div>
+            </div>
+          <!---->
+        </div>
+      <!---->
+  
+      <!-- First Sec... -->
+        <div class="--fst-yi">
+          <div id="ps" class="---ga">
+            <p id="---ga">Personal info</p>
+            <span id="---ga">Please provide your name, email address, and phone number.</span>
+          </div>
+  
+          <div id="is">
+            <div>
+              <label for="-n">Name</label>
+              <input type="text" id="-n" placeholder="e.g. Stephen King">
+            </div>
+    
+            <div>
+              <label for="-e">Email Address</label>
+              <input type="email" id="-e" placeholder="e.g stephenking@lorem.com">
+            </div>
+            
+            <div>
+              <label for="-p">Phone Number</label>
+              <input type="tel" id="-p" placeholder="e.g +1 234 567 890">
+            </div>
+          </div>
+        </div>
+      <!---->
+    
+      <!-- Second Sec... -->
+        <div class="--snd-sp">
+          <div class="---ga">
+            <div id="syp">
+              <p>Select your plan</p>
+              <span>You have the option of monthly or yearly billing.</span>
+            </div>
+          </div>
+  
+          <div id="sr">
+            <div id="rs">
+              <div>
+                <label for="-a"> 
+                  <img src="" alt="ar">
+                  <span id="sa"></span>
+                </label> 
+                <input type="radio" name="p" id="-a">
+              </div>
+      
+              <div>
+                <label for="-ad"> 
+                  <img src="" alt="ad">
+                  <span id="sa"></span>
+                </label>
+                <input type="radio" name="p" id="-ad">
+              </div>
+      
+              <div>
+                <label for="-pr"> 
+                  <img src="" alt="pr">
+                  <span id="sa"></span>
+                </label>
+                <input type="radio" name="p" id="-pr">
+              </div>
+            </div>
+    
+            <!-- Toggle -->
+              <div class="tg-">
+                <div id="c---">
+                  <input type="checkbox" id="cb-" />
+                  <label for="cb-" class="switch-">
+                    <span class="slider-"></span>
+                  </label>
+                  
+                  <span id="m-">Monthly</span>
+                  <span id="y-">Yearly</span>
+                </div>
+              </div>
+            <!---->
+          </div>
+        </div>
+      <!---->
+    
+      <!-- Third Sec... -->
+        <div class="--trd-ao">
+          <div class="---ga">
+            <div id="pey">
+              <p>Pick add-ons</p>
+              <span id="ey">Add-ons help enhance your gaming experience.</span>
+            </div>
+          </div>
+  
+          <div id="gtrd-">
+            <div id="onl" class="ddao">
+              <input type="checkbox" id="-o" />
+              <label for="-o" onclick="event.preventDefault()"> 
+                <span id="gt"></span> 
+                <p id="gt"></p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" class="checkbox-svg">
+                  <path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/>
+                </svg>
+              </label>
+            </div>
+    
+            <div id="lar" class="ddao">
+              <input type="checkbox" id="-l" />
+              <label for="-l" onclick="event.preventDefault()"> 
+                <span id="gt"></span> 
+                <p id="gt"></p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" class="checkbox-svg">
+                  <path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/>
+                </svg>
+              </label>
+            </div>
+    
+            <div id="cst" class="ddao">
+              <input type="checkbox" id="-c" />
+              <label for="-c" onclick="event.preventDefault()"> 
+                <span id="gt"></span> 
+                <p id="gt"></p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" class="checkbox-svg">
+                  <path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/>
+                </svg>
+              </label>
+            </div>
+          </div>
+        </div>
+      <!---->
+    
+      <!-- Fourth Sec... -->
+        <div class="--fth-sm">
+          <div class="---ga">
+            <p>Finishing up</p>
+            <span>Double-check everything looks OK before confirming.</span>
+          </div>
+  
+          <div class="i--">
+            <div id="-wppp">
+              <p id="-wp"></p>
+              <p id="-wpp"></p>
+            </div>
+  
+            <div id="-waop">
+              <p id="-wao"></p>
+              <p id="-ap"></p>
+            </div>
+          </div>
+          
+          <div id="-tpp">
+            <p id="-t">
+              Total 
+              <h1 id="-tp"></h1>
+            </p>
+          </div>
+        </div>
+      <!---->
+    </div>
+    
+    <!-- svg -->
+      <div id="p-svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="274" height="568" fill="none" viewBox="0 0 274 568"><rect width="274" height="568" fill="#483EFF" rx="10"/>
+          <mask id="a" width="274" height="568" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><rect width="274" height="568" fill="#fff" rx="10"/></mask>
+          <g mask="url(#a)">
+            <path fill="#6259FF" fill-rule="evenodd" d="M-34.692 543.101C3.247 632.538 168.767 685.017 211.96 612.52c43.194-72.497-66.099-85.653-104.735-160.569-38.635-74.916-68.657-121.674-124.482-104.607-55.824 17.068-55.375 106.32-17.436 195.757Z" clip-rule="evenodd"/>
+            <path fill="#F9818E" fill-rule="evenodd" d="M233.095 601.153c60.679-28.278 92.839-143.526 41.875-171.528-50.965-28.003-57.397 47.579-108.059 75.987-50.662 28.408-82.14 50.207-69.044 88.241 13.096 38.034 74.549 35.578 135.228 7.3Z" clip-rule="evenodd"/>
+            <path stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="5" d="m165.305 469.097 10.607-10.806M209.461 474.581l-12.506-10.503M187.56 488.991l-6.908 14.798"/><path fill="#FFAF7E" d="M.305 546.891c37.003 0 67-29.997 67-67s-29.997-67-67-67-67 29.997-67 67 29.997 67 67 67Z"/>
+          </g>
+        </svg>
+      </div>
+    <!---->
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/guicastaldeli?tab=repositories">guicastaldeli</a>.
+  </div>
+
+  <!------- Script ------->
+  <script src="./script.js" defer></script>
+</body>
+</html>
